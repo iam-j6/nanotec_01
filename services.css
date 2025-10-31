@@ -1,0 +1,26 @@
+.parent_EI{
+width: 600px;
+height: 600px;
+background-color: #ff583300;
+border-radius: 100%;
+
+}
+
+    .button_EI {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url("images/EspaciosInteligentes.png");
+      background-repeat: no-repeat;
+      background-position: 52.6% 48.1%;
+      background-size: 154% 216%;
+      background-color: rgba(241, 10, 10, 0);
+      border-radius: 100%;
+      border-color: rgba(0, 0, 0, 0);
+      cursor: pointer;
+    }
+
+    .button_EI:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más grande y/o oscura */
+      transform: scale(1.05); /* Agranda el botón un 5% */
+    }
